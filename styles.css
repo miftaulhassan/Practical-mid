@@ -55,3 +55,46 @@ nav ul li a:hover {
 /* Product Page Styles */
 /* You can add styles for the product page here using grid layout */
 
+
+.product-cards {
+    display: grid; /* Using display: grid */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .product-card h2 {
+    margin-top: 10px;
+  }
+  
+  .product-card p {
+    color: #666;
+  }
+  
+  .product-card button {
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-card button:hover {
+    background-color: #ff9900; /* Hover effect */
+  }
+
